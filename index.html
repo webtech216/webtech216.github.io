@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 <head>
   <title>Frontpage</title>
 </head>
 <body>
-  <nav>
-     <a href="index.html">Frontpage</a>
-     <a href="Economy.html">Economy</a>
-     <a href="sports.html">Sports</a>
-     <a href="login.html">Sign In</a>
-   </nav>
-   <h1>The News Reporter</h1>
-   <h2> Frontpage</h2>
-   <div id="mainArticle">
-     <h4>Economy</h4>
-     <img src="pexels-photo-241544.jpeg" alt="Mountain View" style="width:450px;height:250px;">
-     <h2>Lorem ipsum dolor sit amet</h2>
-     <p><strong>New York</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     <p>Read More</p>
+  <div class="header">
+      <div class="container">
+        <h1>The News Reporter</h1>
+        <a class="btn" href="index.html">Frontpage</a>
+        <a class="btn" href="Economy.html">Economy</a>
+        <a class="btn" href="sports.html">Sports</a>
+        <a class="btn" href="login.html">Sign In</a>
+      </div>
+    </div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h2> Frontpage</h2>
+          <div class = "jumbotron">
+            <div id="mainArticle">
+              <h4>Economy</h4>
+              <img src="pexels-photo-241544.jpeg" alt="Mountain View" style="width:450px;height:250px;">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p><strong>New York</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>
+                <a href="Economy.html" class = "btn btn-default btn-lg" role = "button">Read More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class = "container">
+     <div class = "row">
+       <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class = "jumbotron">
+          <div id="secondArticle">
+            <h4>Sports</h4>
+            <img src="basketball-game-competition-sport-39593.jpeg" alt="Mountain View" style="width:450px;height:250px;">
+            <h2>Ut enim ad minim veniam</h2>
+            <p><strong>Los Angeles</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>
+              <a href="Economy.html" class = "btn btn-default btn-lg" role = "button">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
    </div>
-   <div id="secondArticle">
-     <h4>Sports</h4>
-     <img src="basketball-game-competition-sport-39593.jpeg" alt="Mountain View" style="width:450px;height:250px;">
-     <h2>Ut enim ad minim veniam</h2>
-     <p><strong>Los Angeles</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-     <p>Read More</p>
-   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
